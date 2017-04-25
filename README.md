@@ -1,6 +1,6 @@
 # npmtest-scmp
 
-#### test coverage for  [scmp (v2.0.0)](https://github.com/freewil/scmp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-scmp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-scmp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-scmp.svg)](https://travis-ci.org/npmtest/node-npmtest-scmp)
+#### basic test coverage for  [scmp (v2.0.0)](https://github.com/freewil/scmp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-scmp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-scmp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-scmp.svg)](https://travis-ci.org/npmtest/node-npmtest-scmp)
 
 #### safe, constant-time comparison of Buffers
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-scmp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-scmp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-scmp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-scmp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-scmp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-scmp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-scmp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-scmp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-scmp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-scmp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-scmp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-scmp/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
         "posttest": "matcha",
         "test": "mocha"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
